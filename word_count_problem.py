@@ -1,4 +1,4 @@
-sentence=input()
+sentence=input("Enter Your Sentence:)
 word_list=sentence.split()
 word_count={}
 for word in word_list:
@@ -6,4 +6,5 @@ for word in word_list:
         word_count[word]+=1
     else:
         word_count[word]=1
+
 print(word_count)
